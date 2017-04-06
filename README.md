@@ -11,4 +11,4 @@ This repository contains the following files, to be submitted for the Week 4 pro
 * clean_data.txt - a tidy data set
 * CodeBook.md - a description of all the variables, the data and the work performed to clean up the data
 
-the R scripts should be put in the "UCI HAR Dataset" as working directory
+the R script should be put in the "UCI HAR Dataset" as working directory
