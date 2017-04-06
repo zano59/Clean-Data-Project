@@ -21,7 +21,7 @@ I performed the following actions in order to reach the required result, using o
 
 ## Original data
 The original data have been downloaded from   
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip   
 which generates the directory UCI HAR Dataset, which should be used as working directory to run the script.   
 ## Variables
 •	x_train, y_train, x_test, y_test, subject_train and subject_test are the data from the downloaded files for training and test, where x are the sets, y are the labels and subject are the subject identifiers.  
@@ -29,7 +29,7 @@ which generates the directory UCI HAR Dataset, which should be used as working d
 •	features  and features_info list and describe the measured variables associated with the columns.  
 •	stat_features is used to extract only the variables related to mean and standard deviation.  
 •	activity_labels and activities are related to the 6 activities used for the original measurements.  
-•	Fulldatacols are the names of the columns to be changes to correct a typo and use, where possible, a less obscure definition. 
+•	Fulldatacols are the names of the columns to be changes to correct a typo and use, where possible, a less obscure definition.   
 •	full_data is an intermediate tidy dataset, where full_data_stat contains the requested averages to be written in clean_data.txt as a final result.  
 •	The units of the different measured data are not described in the original files.
 
